@@ -27,12 +27,13 @@ class handler(BaseHTTPRequestHandler):
                 }
                 status = 200
             else:
+                # Less helpful error message to force agent to calculate correctly
                 response_data = {
                     "correct": False,
-                    "message": f"Incorrect answer. Expected {CORRECT_ANSWER}, but got {user_answer}.",
+                    "message": "Incorrect answer.",
                     "hint": "Make sure you are filtering for 'Electronics' and calculating price * stock."
                 }
-                status = 400 # Or 200 with correct=False, depending on how you want to test
+                status = 400 
 
             self.send_response(status)
             self.send_header('Content-type', 'application/json')

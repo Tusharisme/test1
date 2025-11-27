@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contact — Demo Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-bold">Demo Store</a>
+            <nav class="space-x-4">
+                <a href="index.html" class="text-gray-600 hover:text-gray-900">Home</a>
+                <a href="products.html" class="text-gray-600 hover:text-gray-900">Products</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <h1 class="text-2xl font-bold mb-4">Contact</h1>
+        <p class="text-gray-600 mb-4">Use the form below to send a message. This demo doesn't have a backend; the form
+            will show the payload you'd send.</p>
+
+        <form id="contactForm" class="bg-white p-6 rounded shadow max-w-lg">
+            <label class="block mb-2">Name
+                <input id="name" required class="w-full border px-3 py-2 rounded mt-1" />
+            </label>
+            <label class="block mb-2">Email
+                <input id="email" type="email" required class="w-full border px-3 py-2 rounded mt-1" />
+            </label>
+            <label class="block mb-4">Message
+                <textarea id="message" rows="4" required class="w-full border px-3 py-2 rounded mt-1"></textarea>
+            </label>
+            <div class="flex gap-2">
+                <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Show Payload</button>
+                <button id="sendWebhook" type="button" class="bg-green-600 text-white px-4 py-2 rounded">Send to
+                    Webhook</button>
+            </div>
+            <pre id="payload" class="mt-4 bg-gray-100 p-3 rounded text-sm text-gray-800"></pre>
+        </form>
+    </main>
+
+    <footer class="bg-white border-t mt-12">
+        <div class="container mx-auto px-4 py-6 text-sm text-gray-600">© Demo Store</div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

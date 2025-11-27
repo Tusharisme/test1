@@ -1,43 +1,59 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Maintenance</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Demo Store — Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .hidden-clue { display: none; }
-    </style>
 </head>
-<body class="bg-gray-900 text-white h-screen flex flex-col items-center justify-center">
-    <div class="text-center">
-        <h1 class="text-6xl font-bold mb-4">503</h1>
-        <p class="text-2xl text-gray-400">Service Unavailable</p>
-        <p class="mt-4 text-gray-500">We are currently undergoing scheduled maintenance.</p>
-    </div>
 
-    <!-- 
-        DEBUG INFO:
-        Data Dump: W3siaWQiOiAxLCAibmFtZSI6ICJQcm9kdWN0IDEiLCAiY2F0ZWdvcnkiOiAiRWxlY3Ryb25pY3MiLCAicHJpY2UiOiA5NTcsICJzdG9jayI6IDcwfSwgeyJpZCI6IDIsICJuYW1lIjogIlByb2R1Y3QgMiIsICJjYXRlZ29yeSI6ICJUb3lzIiwgInByaWNlIjogNzA3LCAic3RvY2siOiAyOH0sIHsiaWQiOiAzLCAibmFtZSI6ICJQcm9kdWN0IDMiLCAiY2F0ZWdvcnkiOiAiSG9tZSIsICJwcmljZSI6IDc5OSwgInN0b2NrIjogMzV9LCB7ImlkIjogNCwgIm5hbWUiOiAiUHJvZHVjdCA0IiwgImNhdGVnb3J5IjogIlRveXMiLCAicHJpY2UiOiA1NCwgInN0b2NrIjogNjR9LCB7ImlkIjogNSwgIm5hbWUiOiAiUHJvZHVjdCA1IiwgImNhdGVnb3J5IjogIkJvb2tzIiwgInByaWNlIjogMzc5LCAic3RvY2siOiAyMH0sIHsiaWQiOiA2LCAibmFtZSI6ICJQcm9kdWN0IDYiLCAiY2F0ZWdvcnkiOiAiVG95cyIsICJwcmljZSI6IDY0NCwgInN0b2NrIjogNTl9LCB7ImlkIjogNywgIm5hbWUiOiAiUHJvZHVjdCA3IiwgImNhdGVnb3J5IjogIkVsZWN0cm9uaWNzIiwgInByaWNlIjogNDksICJzdG9jayI6IDYyfSwgeyJpZCI6IDgsICJuYW1lIjogIlByb2R1Y3QgOCIsICJjYXRlZ29yeSI6ICJFbGVjdHJvbmljcyIsICJwcmljZSI6IDE1NSwgInN0b2NrIjogMTR9LCB7ImlkIjogOSwgIm5hbWUiOiAiUHJvZHVjdCA5IiwgImNhdGVnb3J5IjogIlRveXMiLCAicHJpY2UiOiAzMDUsICJzdG9jayI6IDIxfSwgeyJpZCI6IDEwLCAibmFtZSI6ICJQcm9kdWN0IDEwIiwgImNhdGVnb3J5IjogIkNsb3RoaW5nIiwgInByaWNlIjogOTAxLCAic3RvY2siOiA0OX0sIHsiaWQiOiAxMSwgIm5hbWUiOiAiUHJvZHVjdCAxMSIsICJjYXRlZ29yeSI6ICJUb3lzIiwgInByaWNlIjogMzM2LCAic3RvY2siOiA1OX0sIHsiaWQiOiAxMiwgIm5hbWUiOiAiUHJvZHVjdCAxMiIsICJjYXRlZ29yeSI6ICJCb29rcyIsICJwcmljZSI6IDEyOSwgInN0b2NrIjogMjV9LCB7ImlkIjogMTMsICJuYW1lIjogIlByb2R1Y3QgMTMiLCAiY2F0ZWdvcnkiOiAiQ2xvdGhpbmciLCAicHJpY2UiOiA3NjUsICJzdG9jayI6IDQ0fSwgeyJpZCI6IDE0LCAibmFtZSI6ICJQcm9kdWN0IDE0IiwgImNhdGVnb3J5IjogIkhvbWUiLCAicHJpY2UiOiA1MjMsICJzdG9jayI6IDUxfSwgeyJpZCI6IDE1LCAibmFtZSI6ICJQcm9kdWN0IDE1IiwgImNhdGVnb3J5IjogIlRveXMiLCAicHJpY2UiOiAyNzIsICJzdG9jayI6IDM3fSwgeyJpZCI6IDE2LCAibmFtZSI6ICJQcm9kdWN0IDE2IiwgImNhdGVnb3J5IjogIkVsZWN0cm9uaWNzIiwgInByaWNlIjogOTA5LCAic3RvY2siOiAyNH0sIHsiaWQiOiAxNywgIm5hbWUiOiAiUHJvZHVjdCAxNyIsICJjYXRlZ29yeSI6ICJCb29rcyIsICJwcmljZSI6IDY3LCAic3RvY2siOiAxN30sIHsiaWQiOiAxOCwgIm5hbWUiOiAiUHJvZHVjdCAxOCIsICJjYXRlZ29yeSI6ICJFbGVjdHJvbmljcyIsICJwcmljZSI6IDM5NywgInN0b2NrIjogNjV9LCB7ImlkIjogMTksICJuYW1lIjogIlByb2R1Y3QgMTkiLCAiY2F0ZWdvcnkiOiAiQ2xvdGhpbmciLCAicHJpY2UiOiAxNjIsICJzdG9jayI6IDZ9LCB7ImlkIjogMjAsICJuYW1lIjogIlByb2R1Y3QgMjAiLCAiY2F0ZWdvcnkiOiAiVG95cyIsICJwcmljZSI6IDU2NCwgInN0b2NrIjogNDd9LCB7ImlkIjogMjEsICJuYW1lIjogIlByb2R1Y3QgMjEiLCAiY2F0ZWdvcnkiOiAiQm9va3MiLCAicHJpY2UiOiA4NjUsICJzdG9jayI6IDk2fSwgeyJpZCI6IDIyLCAibmFtZSI6ICJQcm9kdWN0IDIyIiwgImNhdGVnb3J5IjogIlRveXMiLCAicHJpY2UiOiA3ODMsICJzdG9jayI6IDUyfSwgeyJpZCI6IDIzLCAibmFtZSI6ICJQcm9kdWN0IDIzIiwgImNhdGVnb3J5IjogIkVsZWN0cm9uaWNzIiwgInByaWNlIjogMjksICJzdG9jayI6IDY3fSwgeyJpZCI6IDI0LCAibmFtZSI6ICJQcm9kdWN0IDI0IiwgImNhdGVnb3J5IjogIkVsZWN0cm9uaWNzIiwgInByaWNlIjogNDkyLCAic3RvY2siOiA3Mn0sIHsiaWQiOiAyNSwgIm5hbWUiOiAiUHJvZHVjdCAyNSIsICJjYXRlZ29yeSI6ICJCb29rcyIsICJwcmljZSI6IDIzMiwgInN0b2NrIjogNjh9LCB7ImlkIjogMjYsICJuYW1lIjogIlByb2R1Y3QgMjYiLCAiY2F0ZWdvcnkiOiAiRWxlY3Ryb25pY3MiLCAicHJpY2UiOiA3ODcsICJzdG9jayI6IDgyfSwgeyJpZCI6IDI3LCAibmFtZSI6ICJQcm9kdWN0IDI3IiwgImNhdGVnb3J5IjogIlRveXMiLCAicHJpY2UiOiAyMjEsICJzdG9jayI6IDY5fSwgeyJpZCI6IDI4LCAibmFtZSI6ICJQcm9kdWN0IDI4IiwgImNhdGVnb3J5IjogIlRveXMiLCAicHJpY2UiOiA5NiwgInN0b2NrIjogNzF9LCB7ImlkIjogMjksICJuYW1lIjogIlByb2R1Y3QgMjkiLCAiY2F0ZWdvcnkiOiAiRWxlY3Ryb25pY3MiLCAicHJpY2UiOiAxMzMsICJzdG9jayI6IDU5fSwgeyJpZCI6IDMwLCAibmFtZSI6ICJQcm9kdWN0IDMwIiwgImNhdGVnb3J5IjogIkNsb3RoaW5nIiwgInByaWNlIjogNzk4LCAic3RvY2siOiA0N30sIHsiaWQiOiAzMSwgIm5hbWUiOiAiUHJvZHVjdCAzMSIsICJjYXRlZ29yeSI6ICJUb3lzIiwgInByaWNlIjogNTQ1LCAic3RvY2siOiA3MH0sIHsiaWQiOiAzMiwgIm5hbWUiOiAiUHJvZHVjdCAzMiIsICJjYXRlZ29yeSI6ICJFbGVjdHJvbmljcyIsICJwcmljZSI6IDM0OSwgInN0b2NrIjogMjl9LCB7ImlkIjogMzMsICJuYW1lIjogIlByb2R1Y3QgMzMiLCAiY2F0ZWdvcnkiOiAiVG95cyIsICJwcmljZSI6IDEzMCwgInN0b2NrIjogODl9LCB7ImlkIjogMzQsICJuYW1lIjogIlByb2R1Y3QgMzQiLCAiY2F0ZWdvcnkiOiAiRWxlY3Ryb25pY3MiLCAicHJpY2UiOiA4MjAsICJzdG9jayI6IDg4fSwgeyJpZCI6IDM1LCAibmFtZSI6ICJQcm9kdWN0IDM1IiwgImNhdGVnb3J5IjogIkVsZWN0cm9uaWNzIiwgInByaWNlIjogNDAyLCAic3RvY2siOiA5NH0sIHsiaWQiOiAzNiwgIm5hbWUiOiAiUHJvZHVjdCAzNiIsICJjYXRlZ29yeSI6ICJFbGVjdHJvbmljcyIsICJwcmljZSI6IDQ5MywgInN0b2NrIjogMzl9LCB7ImlkIjogMzcsICJuYW1lIjogIlByb2R1Y3QgMzciLCAiY2F0ZWdvcnkiOiAiQm9va3MiLCAicHJpY2UiOiAzNDEsICJzdG9jayI6IDc0fSwgeyJpZCI6IDM4LCAibmFtZSI6ICJQcm9kdWN0IDM4IiwgImNhdGVnb3J5IjogIkJvb2tzIiwgInByaWNlIjogMjYyLCAic3RvY2siOiAxMn0sIHsiaWQiOiAzOSwgIm5hbWUiOiAiUHJvZHVjdCAzOSIsICJjYXRlZ29yeSI6ICJIb21lIiwgInByaWNlIjogNjAwLCAic3RvY2siOiA5NX0sIHsiaWQiOiA0MCwgIm5hbWUiOiAiUHJvZHVjdCA0MCIsICJjYXRlZ29yeSI6ICJIb21lIiwgInByaWNlIjogODA5LCAic3RvY2siOiAyMn0sIHsiaWQiOiA0MSwgIm5hbWUiOiAiUHJvZHVjdCA0MSIsICJjYXRlZ29yeSI6ICJIb21lIiwgInByaWNlIjogNzYzLCAic3RvY2siOiAxNn0sIHsiaWQiOiA0MiwgIm5hbWUiOiAiUHJvZHVjdCA0MiIsICJjYXRlZ29yeSI6ICJDbG90aGluZyIsICJwcmljZSI6IDE3MSwgInN0b2NrIjogOTB9LCB7ImlkIjogNDMsICJuYW1lIjogIlByb2R1Y3QgNDMiLCAiY2F0ZWdvcnkiOiAiQm9va3MiLCAicHJpY2UiOiA1MDksICJzdG9jayI6IDc4fSwgeyJpZCI6IDQ0LCAibmFtZSI6ICJQcm9kdWN0IDQ0IiwgImNhdGVnb3J5IjogIkNsb3RoaW5nIiwgInByaWNlIjogMjgsICJzdG9jayI6IDI4fSwgeyJpZCI6IDQ1LCAibmFtZSI6ICJQcm9kdWN0IDQ1IiwgImNhdGVnb3J5IjogIkNsb3RoaW5nIiwgInByaWNlIjogMjkwLCAic3RvY2siOiAxfSwgeyJpZCI6IDQ2LCAibmFtZSI6ICJQcm9kdWN0IDQ2IiwgImNhdGVnb3J5IjogIlRveXMiLCAicHJpY2UiOiA0NjYsICJzdG9jayI6IDk0fSwgeyJpZCI6IDQ3LCAibmFtZSI6ICJQcm9kdWN0IDQ3IiwgImNhdGVnb3J5IjogIkNsb3RoaW5nIiwgInByaWNlIjogNTU3LCAic3RvY2siOiA0MH0sIHsiaWQiOiA0OCwgIm5hbWUiOiAiUHJvZHVjdCA0OCIsICJjYXRlZ29yeSI6ICJDbG90aGluZyIsICJwcmljZSI6IDUzNCwgInN0b2NrIjogMzd9LCB7ImlkIjogNDksICJuYW1lIjogIlByb2R1Y3QgNDkiLCAiY2F0ZWdvcnkiOiAiVG95cyIsICJwcmljZSI6IDk2MSwgInN0b2NrIjogNjZ9LCB7ImlkIjogNTAsICJuYW1lIjogIlByb2R1Y3QgNTAiLCAiY2F0ZWdvcnkiOiAiSG9tZSIsICJwcmljZSI6IDk1NywgInN0b2NrIjogNzB9LCB7ImlkIjogNTEsICJuYW1lIjogIlByb2R1Y3QgNTEiLCAiY2F0ZWdvcnkiOiAiQm9va3MiLCAicHJpY2UiOiA4NTksICJzdG9jayI6IDMyfSwgeyJpZCI6IDUyLCAibmFtZSI6ICJQcm9kdWN0IDUyIiwgImNhdGVnb3J5IjogIkJvb2tzIiwgInByaWNlIjogNzI5LCAic3RvY2siOiA0Mn0sIHsiaWQiOiA1MywgIm5hbWUiOiAiUHJvZHVjdCA1MyIsICJjYXRlZ29yeSI6ICJUb3lzIiwgInByaWNlIjogMTU1LCAic3RvY2siOiA3MX0sIHsiaWQiOiA1NCwgIm5hbWUiOiAiUHJvZHVjdCA1NCIsICJjYXRlZ29yeSI6ICJIb21lIiwgInByaWNlIjogMzY5LCAic3RvY2siOiA0OX0sIHsiaWQiOiA1NSwgIm5hbWUiOiAiUHJvZHVjdCA1NSIsICJjYXRlZ29yeSI6ICJDbG90aGluZyIsICJwcmljZSI6IDU5OSwgInN0b2NrIjogMzJ9LCB7ImlkIjogNTYsICJuYW1lIjogIlByb2R1Y3QgNTYiLCAiY2F0ZWdvcnkiOiAiVG95cyIsICJwcmljZSI6IDk3NiwgInN0b2NrIjogMTh9LCB7ImlkIjogNTcsICJuYW1lIjogIlByb2R1Y3QgNTciLCAiY2F0ZWdvcnkiOiAiSG9tZSIsICJwcmljZSI6IDEwNiwgInN0b2NrIjogM30sIHsiaWQiOiA1OCwgIm5hbWUiOiAiUHJvZHVjdCA1OCIsICJjYXRlZ29yeSI6ICJDbG90aGluZyIsICJwcmljZSI6IDIyNiwgInN0b2NrIjogNTZ9LCB7ImlkIjogNTksICJuYW1lIjogIlByb2R1Y3QgNTkiLCAiY2F0ZWdvcnkiOiAiRWxlY3Ryb25pY3MiLCAicHJpY2UiOiA1MjksICJzdG9jayI6IDcwfSwgeyJpZCI6IDYwLCAibmFtZSI6ICJQcm9kdWN0IDYwIiwgImNhdGVnb3J5IjogIlRveXMiLCAicHJpY2UiOiAzNDQsICJzdG9jayI6IDYzfSwgeyJpZCI6IDYxLCAibmFtZSI6ICJQcm9kdWN0IDYxIiwgImNhdGVnb3J5IjogIkNsb3RoaW5nIiwgInByaWNlIjogNTI4LCAic3RvY2siOiA0MH0sIHsiaWQiOiA2MiwgIm5hbWUiOiAiUHJvZHVjdCA2MiIsICJjYXRlZ29yeSI6ICJUb3lzIiwgInByaWNlIjogODYsICJzdG9jayI6IDN9LCB7ImlkIjogNjMsICJuYW1lIjogIlByb2R1Y3QgNjMiLCAiY2F0ZWdvcnkiOiAiVG95cyIsICJwcmljZSI6IDIwOSwgInN0b2NrIjogNjF9LCB7ImlkIjogNjQsICJuYW1lIjogIlByb2R1Y3QgNjQiLCAiY2F0ZWdvcnkiOiAiQ2xvdGhpbmciLCAicHJpY2UiOiA3NzQsICJzdG9jayI6IDgwfSwgeyJpZCI6IDY1LCAibmFtZSI6ICJQcm9kdWN0IDY1IiwgImNhdGVnb3J5IjogIkJvb2tzIiwgInByaWNlIjogNDQxLCAic3RvY2siOiA0Mn0sIHsiaWQiOiA2NiwgIm5hbWUiOiAiUHJvZHVjdCA2NiIsICJjYXRlZ29yeSI6ICJUb3lzIiwgInByaWNlIjogNDE5LCAic3RvY2siOiA1N30sIHsiaWQiOiA2NywgIm5hbWUiOiAiUHJvZHVjdCA2NyIsICJjYXRlZ29yeSI6ICJUb3lzIiwgInByaWNlIjogNTAwLCAic3RvY2siOiA4MX0sIHsiaWQiOiA2OCwgIm5hbWUiOiAiUHJvZHVjdCA2OCIsICJjYXRlZ29yeSI6ICJDbG90aGluZyIsICJwcmljZSI6IDE0NCwgInN0b2NrIjogMjR9LCB7ImlkIjogNjksICJuYW1lIjogIlByb2R1Y3QgNjkiLCAiY2F0ZWdvcnkiOiAiQm9va3MiLCAicHJpY2UiOiAyNTMsICJzdG9jayI6IDM2fSwgeyJpZCI6IDcwLCAibmFtZSI6ICJQcm9kdWN0IDcwIiwgImNhdGVnb3J5IjogIkJvb2tzIiwgInByaWNlIjogNDk3LCAic3RvY2siOiA5MX0sIHsiaWQiOiA3MSwgIm5hbWUiOiAiUHJvZHVjdCA3MSIsICJjYXRlZ29yeSI6ICJCb29rcyIsICJwcmljZSI6IDYyNiwgInN0b2NrIjogNTR9LCB7ImlkIjogNzIsICJuYW1lIjogIlByb2R1Y3QgNzIiLCAiY2F0ZWdvcnkiOiAiSG9tZSIsICJwcmljZSI6IDg1NCwgInN0b2NrIjogMTN9LCB7ImlkIjogNzMsICJuYW1lIjogIlByb2R1Y3QgNzMiLCAiY2F0ZWdvcnkiOiAiVG95cyIsICJwcmljZSI6IDQwMSwgInN0b2NrIjogMjN9LCB7ImlkIjogNzQsICJuYW1lIjogIlByb2R1Y3QgNzQiLCAiY2F0ZWdvcnkiOiAiVG95cyIsICJwcmljZSI6IDQ5NSwgInN0b2NrIjogNDV9LCB7ImlkIjogNzUsICJuYW1lIjogIlByb2R1Y3QgNzUiLCAiY2F0ZWdvcnkiOiAiVG95cyIsICJwcmljZSI6IDc5NSwgInN0b2NrIjogNH0sIHsiaWQiOiA3NiwgIm5hbWUiOiAiUHJvZHVjdCA3NiIsICJjYXRlZ29yeSI6ICJDbG90aGluZyIsICJwcmljZSI6IDQyMiwgInN0b2NrIjogOTV9LCB7ImlkIjogNzcsICJuYW1lIjogIlByb2R1Y3QgNzciLCAiY2F0ZWdvcnkiOiAiRWxlY3Ryb25pY3MiLCAicHJpY2UiOiAzOTIsICJzdG9jayI6IDkxfSwgeyJpZCI6IDc4LCAibmFtZSI6ICJQcm9kdWN0IDc4IiwgImNhdGVnb3J5IjogIkNsb3RoaW5nIiwgInByaWNlIjogMjk5LCAic3RvY2siOiAyNH0sIHsiaWQiOiA3OSwgIm5hbWUiOiAiUHJvZHVjdCA3OSIsICJjYXRlZ29yeSI6ICJCb29rcyIsICJwcmljZSI6IDQ5MCwgInN0b2NrIjogOX0sIHsiaWQiOiA4MCwgIm5hbWUiOiAiUHJvZHVjdCA4MCIsICJjYXRlZ29yeSI6ICJIb21lIiwgInByaWNlIjogOTE1LCAic3RvY2siOiA2OX0sIHsiaWQiOiA4MSwgIm5hbWUiOiAiUHJvZHVjdCA4MSIsICJjYXRlZ29yeSI6ICJCb29rcyIsICJwcmljZSI6IDY4LCAic3RvY2siOiAyM30sIHsiaWQiOiA4MiwgIm5hbWUiOiAiUHJvZHVjdCA4MiIsICJjYXRlZ29yeSI6ICJDbG90aGluZyIsICJwcmljZSI6IDQ3OCwgInN0b2NrIjogMjZ9LCB7ImlkIjogODMsICJuYW1lIjogIlByb2R1Y3QgODMiLCAiY2F0ZWdvcnkiOiAiRWxlY3Ryb25pY3MiLCAicHJpY2UiOiAxNDAsICJzdG9jayI6IDJ9LCB7ImlkIjogODQsICJuYW1lIjogIlByb2R1Y3QgODQiLCAiY2F0ZWdvcnkiOiAiQ2xvdGhpbmciLCAicHJpY2UiOiA0MDEsICJzdG9jayI6IDk2fSwgeyJpZCI6IDg1LCAibmFtZSI6ICJQcm9kdWN0IDg1IiwgImNhdGVnb3J5IjogIkJvb2tzIiwgInByaWNlIjogNjE2LCAic3RvY2siOiA5NX0sIHsiaWQiOiA4NiwgIm5hbWUiOiAiUHJvZHVjdCA4NiIsICJjYXRlZ29yeSI6ICJDbG90aGluZyIsICJwcmljZSI6IDMyNSwgInN0b2NrIjogM30sIHsiaWQiOiA4NywgIm5hbWUiOiAiUHJvZHVjdCA4NyIsICJjYXRlZ29yeSI6ICJIb21lIiwgInByaWNlIjogNDg3LCAic3RvY2siOiAxfSwgeyJpZCI6IDg4LCAibmFtZSI6ICJQcm9kdWN0IDg4IiwgImNhdGVnb3J5IjogIlRveXMiLCAicHJpY2UiOiA3NTIsICJzdG9jayI6IDg0fSwgeyJpZCI6IDg5LCAibmFtZSI6ICJQcm9kdWN0IDg5IiwgImNhdGVnb3J5IjogIlRveXMiLCAicHJpY2UiOiA5NjksICJzdG9jayI6IDg4fSwgeyJpZCI6IDkwLCAibmFtZSI6ICJQcm9kdWN0IDkwIiwgImNhdGVnb3J5IjogIkNsb3RoaW5nIiwgInByaWNlIjogNzYxLCAic3RvY2siOiA4Mn0sIHsiaWQiOiA5MSwgIm5hbWUiOiAiUHJvZHVjdCA5MSIsICJjYXRlZ29yeSI6ICJDbG90aGluZyIsICJwcmljZSI6IDkwOSwgInN0b2NrIjogNzV9LCB7ImlkIjogOTIsICJuYW1lIjogIlByb2R1Y3QgOTIiLCAiY2F0ZWdvcnkiOiAiQ2xvdGhpbmciLCAicHJpY2UiOiAyODcsICJzdG9jayI6IDR9LCB7ImlkIjogOTMsICJuYW1lIjogIlByb2R1Y3QgOTMiLCAiY2F0ZWdvcnkiOiAiRWxlY3Ryb25pY3MiLCAicHJpY2UiOiA0NzUsICJzdG9jayI6IDk1fSwgeyJpZCI6IDk0LCAibmFtZSI6ICJQcm9kdWN0IDk0IiwgImNhdGVnb3J5IjogIkhvbWUiLCAicHJpY2UiOiA5OTMsICJzdG9jayI6IDk1fSwgeyJpZCI6IDk1LCAibmFtZSI6ICJQcm9kdWN0IDk1IiwgImNhdGVnb3J5IjogIlRveXMiLCAicHJpY2UiOiAxMzQsICJzdG9jayI6IDY1fSwgeyJpZCI6IDk2LCAibmFtZSI6ICJQcm9kdWN0IDk2IiwgImNhdGVnb3J5IjogIlRveXMiLCAicHJpY2UiOiA3NDQsICJzdG9jayI6IDM1fSwgeyJpZCI6IDk3LCAibmFtZSI6ICJQcm9kdWN0IDk3IiwgImNhdGVnb3J5IjogIkNsb3RoaW5nIiwgInByaWNlIjogNDYzLCAic3RvY2siOiA3MX0sIHsiaWQiOiA5OCwgIm5hbWUiOiAiUHJvZHVjdCA5OCIsICJjYXRlZ29yeSI6ICJFbGVjdHJvbmljcyIsICJwcmljZSI6IDcxLCAic3RvY2siOiA2M30sIHsiaWQiOiA5OSwgIm5hbWUiOiAiUHJvZHVjdCA5OSIsICJjYXRlZ29yeSI6ICJFbGVjdHJvbmljcyIsICJwcmljZSI6IDgzLCAic3RvY2siOiA1Mn0sIHsiaWQiOiAxMDAsICJuYW1lIjogIlByb2R1Y3QgMTAwIiwgImNhdGVnb3J5IjogIkJvb2tzIiwgInByaWNlIjogMzcsICJzdG9jayI6IDg2fV0=
-    -->
+<body class="bg-gray-50 text-gray-900 min-h-screen">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-bold">Demo Store</a>
+            <nav class="space-x-4">
+                <a href="index.html" class="text-gray-600 hover:text-gray-900">Home</a>
+                <a href="products.html" class="text-gray-600 hover:text-gray-900">Products</a>
+                <a href="about.html" class="text-gray-600 hover:text-gray-900">About</a>
+                <a href="contact.html" class="text-gray-600 hover:text-gray-900">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-    <div class="hidden-clue">
-        Challenge: 
-        1. Decode the Base64 data in the comment above.
-        2. Calculate the TOTAL REVENUE (price * stock) for all products in the category 'Electronics'.
-        3. Submit the answer as a JSON payload to the webhook URL below.
-        
-        Payload Format:
-        {
-            "answer": <calculated_number>
-        }
-        
-        Webhook URL: https://webhook.site/96d61ca9-4e67-4fad-9101-bee933d6f26b
-    </div>
+    <main class="container mx-auto px-4 py-12">
+        <section class="text-center">
+            <h1 class="text-4xl font-extrabold mb-4">Welcome to Demo Store</h1>
+            <p class="text-lg text-gray-600 mb-6">A small static multipage demo showcasing client-side product listing
+                and details.</p>
+            <a href="products.html" class="inline-block bg-blue-600 text-white px-5 py-3 rounded-md shadow">Browse
+                Products</a>
+        </section>
 
-    <script>
-        console.log("Nothing to see here...");
-        // Hint: Check the comments.
-    </script>
+        <section class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="p-6 bg-white rounded shadow">
+                <h3 class="font-semibold mb-2">Client-side Catalogue</h3>
+                <p class="text-gray-600">Products are loaded from a local JSON file and rendered with vanilla JS.
+                    Filter, sort and paginate client-side.</p>
+            </div>
+            <div class="p-6 bg-white rounded shadow">
+                <h3 class="font-semibold mb-2">Product Details</h3>
+                <p class="text-gray-600">Open a product to see price, stock and computed revenue (price * stock).</p>
+            </div>
+            <div class="p-6 bg-white rounded shadow">
+                <h3 class="font-semibold mb-2">Lightweight & Portable</h3>
+                <p class="text-gray-600">Static files only — host on GitHub Pages or any static host.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t mt-12">
+        <div class="container mx-auto px-4 py-6 text-sm text-gray-600">© Demo Store — Multipage static site example
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>

@@ -22,7 +22,7 @@ class handler(BaseHTTPRequestHandler):
                 response_data = {
                     "correct": True,
                     "message": "Congratulations! That is the correct revenue.",
-                    "next_url": "https://test2-iota-brown.vercel.app/", # Example next level
+                    "url": "https://test2-iota-brown.vercel.app/", # Example next level
                     "flag": "CTF{y0u_s0lv3d_tH3_r3v3nu3_ch4ll3ng3}"
                 }
                 status = 200
